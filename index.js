@@ -1,8 +1,6 @@
 var os = require('os')
 var path = require('path')
 var fs = require('fs')
-var builder = require('xmlbuilder')
-var pathIsAbsolute = require('path-is-absolute')
 
 // concatenate test suite(s) and test description by default
 function defaultNameFormatter (browser, result) {
